@@ -4,18 +4,17 @@ using namespace std;
 int main() {
 
     int n;
-    int r;
 
     cin >> n;
     
     if( n < 5 ) {
-        r = n * n;
-        cout << r;
-        cout << "\n tiny";
+        n *= n;
+        cout << n;
+        cout << "\ntiny";
     }
     else {
-        r = n * n;
-        cout << r;
+        n *= n;
+        cout << n;
     }
 
     return 0;
