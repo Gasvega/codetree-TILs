@@ -8,7 +8,7 @@ int main() {
 
     cin >> a;
 
-    (a = 1) ? cout << "t" : cout <<"f";
+    (a == 1) ? cout << "t" : cout <<"f";
 
     return 0;
 }
