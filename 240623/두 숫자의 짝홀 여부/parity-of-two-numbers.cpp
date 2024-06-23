@@ -11,13 +11,13 @@ int main() {
     if(a % 2 == 0) {
         cout << "even\n";
     }
-    else if(a % 3 == 0) {
+    else {
         cout << "odd\n";
     }
     if(b % 2 == 0) {
         cout << "even";
     }
-    else if(b % 3 == 0) {
+    else {
         cout << "odd";
     }
     return 0;
