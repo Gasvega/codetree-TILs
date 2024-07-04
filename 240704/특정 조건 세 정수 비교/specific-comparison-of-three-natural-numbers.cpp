@@ -7,7 +7,7 @@ int main() {
 
     cin >> a >> b >> c;
 
-    if(a < b and a < c) {
+    if(a <= b and a <= c) {
         cout << 1 << " ";
     }
     else {
