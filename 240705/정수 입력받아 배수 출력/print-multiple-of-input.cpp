@@ -7,7 +7,7 @@ int main() {
     cin >> n;
 
     for(int i = 1; i <= 5; i++) {
-         if(i*n % 7 == 0) {
+         if(i*n % n == 0) {
             cout << n*i << " ";
          }
         
