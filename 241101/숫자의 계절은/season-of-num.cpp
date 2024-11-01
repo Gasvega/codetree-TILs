@@ -6,16 +6,16 @@ int main() {
     
     cin >> m;
 
-    if(m / 3 == 1 || m / 4 == 1 || m / 5 == 1 ) {
+    if(m == 3 || m == 4 || m == 5 ) {
         cout << "Spring";
     }
-    else if(m / 6 == 1 || m / 7 == 1 || m / 8 == 1) {
+    else if(m == 6 || m == 7 || m == 8 ) {
         cout << "Summer";
     }
-    else if(m / 9 == 1 || m / 10 == 1 || m / 11 == 1) {
+    else if(m == 9 || m == 10 || m == 11) {
         cout << "Fall";
     }
-    else if(m / 12 == 1 || m / 1 == 1 || m / 2 == 1) {
+    else if(m == 12 || m == 1 || m == 2) {
         cout << "Winter";
     }
 
